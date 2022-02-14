@@ -1,0 +1,6 @@
+Ablauf:
+    Commander holt sich reale Werte aus einer Datenbank
+    Classifier benutzt Daten und Methode um zu suchen
+    Classifier gibt Pixelposition zurück
+    Ein Objekt wird erstellt mit der Position 
+    Roboter liest aus dem Objekt die Position aus

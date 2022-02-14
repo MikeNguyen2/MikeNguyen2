@@ -1,0 +1,120 @@
+mtp detection
+
+yolo -> wo
+hinfahren -> Position aber falscher Winkel
+meins:
+    Bild aufnehmen
+    was, wo, Winkel, maße 
+    Bild drehen 
+    Standardposition absuchen (linke kurze Seite) -> pytesseract / traditional
+        bei treffer +0
+        bei miss    andere Seite probieren
+            bei treffer +180
+            bei miss    nicht erkennbar 
+
+standard depth kamera einstellungen
+exposure    8500
+Gain        16
+Laser Power 150
+depth units 0.001
+Stereo Baseline 50  (49.970165)
+
+Second Peak 31
+Neighbor    110
+Median      240
+Increment   3
+Decrement   20
+min Thresh  24
+Max Thresh  791
+LR Thresh   20
+Count Thresh    0
+Diff Thresh 783
+
+standard rgb kamera einstellungen
+exposure    166
+Gain        64
+Brightness  0
+Contrast    50
+Gamma       300
+Hue         0
+Saturation  64
+Sharpness   50
+Wthite Balance      4600
+
+Beispieleinstellung rgb
+exposure    166
+Gain        0
+Brightness  -64
+Contrast    100
+Gamma       300
+Hue         28
+Saturation  92
+Sharpness   50
+Wthite Balance      435
+
+Beispieleinstellung Depth
+exposure    1500
+Gain        16
+Laser Power 150-200
+depth units 0.001
+Stereo Baseline 50  (49.970165)
+
+RGB Tablet
+exposure    47q7
+Gain        0
+Brightness  -64 52 ?
+Contrast    100
+Gamma       100 -> weiße Fläche, 500 -> Symbole
+Hue         0
+Saturation  100 -> rote Linie, 0 --> Symbole
+Sharpness   100 
+Wthite Balance      435
+
+DEPTH Box Orange
+exposure    166
+Gain        16
+laser power 360
+
+DETPH MTP 
+exposure    166-715
+gain        16
+laser power 360
+
+RGB MTP - lila
+exposure    560
+gain        85
+Brightness  -64
+Contrast    100
+Sharpness   100
+white_balance   2800
+
+RGB box - Orange        
+exposure    auto
+Gain        auto
+Brightness  -64 
+Contrast    0
+Gamma       100
+Hue         50
+Saturation  100
+Sharpness   50 
+White Balance 2800
+
+ALL
+exposure    auto
+Gain        auto
+Brightness  64
+Contrast    50
+Gamma       100
+Hue         0
+Saturation  64
+Sharpness   50
+Wthite Balance      65000
+
+
+BEWEGUNG
+
+Kamera versetzt zum Gelenk
+Position herausgefunden
+Kamerakoordinatensystem genutzt
+Endeffektor fährt Position an
+--> versetzt: zu weit rechts

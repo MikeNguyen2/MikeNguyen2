@@ -1,0 +1,31 @@
+Arbeitsmaterialien werden definiert                                       
+    Datenbank                                                           ..
+    einfacher Zuwachs                                                   -
+
+Rundfahrt
+    Cobotta bewegt sich über Arbeitsfläche                              + 
+    Kamera nimmt Bilder auf                                             +
+    Bilder werden per CNN verarbeitet                                   ..
+    Daten werden interpretiert                                          +-
+
+für jedes Arbeitsmaterial                  
+    Cobotta fährt Position an                                           +-
+    Kamera nimmt Bilder auf                                             +
+    Bilder werden klassifiziert und interpretiert                       +-
+        Position                                                        +
+        Ausrichtung                                                     +-
+        Label                                                           +
+        Umwandlung zu 3D                                                +-
+
+Cobotta führt Aktion aus
+    Arbeitsgerät aufnehmen/ablegen: viele kleine Aktionen               +
+    Pipette ansteuern                                                   +
+    Tip wechseln: hinfahren, 90° runter, (Abfallen lassen), 90° hoch    +-
+    Pipettieren: hinfahren, 90° runter, Flüssigkeit, 90° hoch           +-
+    MTP bewegen: hinfahren, 0° runter, zudrücken, 0° hoch               +
+    Reader öffnen/schließen: viele Aktionen                             ..
+
+Daten werden ausgelesen                                                 -
+    Daten bekommen                                                      -
+    Daten verarbeiten                                                   -
+    Daten nutzen                                                        -
